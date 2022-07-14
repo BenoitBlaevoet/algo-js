@@ -5,7 +5,7 @@ while(number<=100){
     }
     number++;
 }*/
-for(let num=0; num%2<=100; num+=2){
+for(let num=0; num<=100; num+=2){
     console.log(num);
-    if(num>=100)break;//failsafe for infinite loop
+    //if(num>=100)break;//failsafe for infinite loop
 }
