@@ -32,8 +32,16 @@ function askTvSerie(){
         year : yearProduction,
         cast : castMember
     };
-    console.log(object);
-    console.log(object[name])
+    return object[name];
 }
 
-askTvSerie();
+function randomizeCast(tvSerie){
+    //return tvSerie;
+    let copyCast = [...tvSerie.cast];
+    copyCast.sort(function(){
+        return Math.random() -0.5;
+    });
+    return copyCast
+}
+
+console.log(randomizeCast(askTvSerie()));
