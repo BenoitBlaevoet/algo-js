@@ -24,7 +24,7 @@ function askTvSerie(){
     let yearProduction = prompt("when was it produced ?");
     let castMember = [];
     let newActor = prompt("What are the actor of the serie?");
-    while(newActor!=""){
+    while(newActor!==""){
         castMember.push(newActor);
         newActor = prompt("What are the actor of the serie?");
     }
@@ -45,4 +45,3 @@ function randomizeCast(tvSerie){
 }
 
 console.log(randomizeCast(askTvSerie()));
-

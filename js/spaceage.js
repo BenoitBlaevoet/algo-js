@@ -35,7 +35,7 @@ function spaceAge(s, planet){
     return `Your age in ${planet} years is ${years}`;
 }
 
-let planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter'];
+let planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Lol'];
 let test = 1136073600;
 
 for(planet of planets){
