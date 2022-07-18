@@ -1,7 +1,7 @@
 let first = [1, 2, 3, 4, 5];
 let second = [100, 101, 102];
 
-function averageofarray(a){
+/*function averageofarray(a){
     let sum = 0;
     let divisor = a.length;
     for(number of a){
@@ -9,7 +9,16 @@ function averageofarray(a){
     }
     sum = sum / divisor;
     console.log(sum);
-}
+}*/
 
+let sum = 0;
+let divisor = first.length;
+for(a of first.concat(second)){
+    sum += a;
+}
+sum = sum / divisor;
+console.log(sum);
+/*
 averageofarray(first);
 averageofarray(second);
+console.log(5/2)*/

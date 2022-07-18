@@ -1,6 +1,7 @@
-// Prompt the user to enter the date of the rectangle.
-// Multiply the two value to return the surface
-
+/***
+ * Prompt the user to enter the date of the rectangle.
+ * Multiply the two value to return the surface
+ ***/
 class SurfaceOfRect{
     constructor(){
         //Ask the value when the class is constructed
