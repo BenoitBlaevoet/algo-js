@@ -1,0 +1,4 @@
+{
+    "rome.analysis.enableCodeActions": true,
+    "rome.analysis.enableDiagnostics": true
+}
